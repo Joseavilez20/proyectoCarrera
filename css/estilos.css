@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*#login {
+    
+}*/
+#login label, #login input[type="submit"]{
+    display: block;
+}
+
+#login input[type="submit"] {
+    margin-top: 5px;
+}
+
+.contenedor {
+    display: flex;
+}
+
+nav {
+    background-color: rgb(29, 27, 27);
+    width: 20vw;
+    height: 100vh;
+}
+nav ul {
+    padding: 20px;
+}
+nav ul li {
+    margin: 10px;
+}
+nav ul li a{
+    font-size: 20px;
+    color:aliceblue;
+}
+main {
+    width: 80vw;  
+}
+main  h1{
+    text-align: center;  
+    margin-top: 15px;
+}
+
+main  {
+    
+    padding: 20px;
+}
+
+#agregar input {
+    display: block;
+}
+
+#agregar input[type="submit"], #agregar select{
+    margin-top: 10px;
+    display: block;
+}
+form#login  {
+    padding: 20px;
+    background-color: rgb(209, 216, 189);
+}
+.contenedor-login {
+    display: flex;
+    justify-content: center;
+    
+    margin: 40px;
+}
+
+
+
+
